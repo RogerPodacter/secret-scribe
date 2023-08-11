@@ -35,7 +35,7 @@ function Home() {
               lineHeight: 1.25,
             }}
           
-          > Enter a secret message and password and click "Ethscribe." The resulting ethscription will be a self-contained HTML page containing the encrypted message, decryption logic, and a field to enter the password to automatically decrypt the message. You will get a preview as you type and can try entering your password yourself to see if it works.
+          > Enter a secret message and password and click &quot;Ethscribe.&quot; The resulting ethscription will be a self-contained HTML page containing the encrypted message, decryption logic, and a field to enter the password to automatically decrypt the message. You will get a preview as you type and can try entering your password yourself to see if it works.
         </div>
         <Ethscribe />
       </CenteredContainer>

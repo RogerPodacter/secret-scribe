@@ -47,14 +47,14 @@ export function Ethscribe() {
     });
   }
   
-  if (typeof "window" !== "undefined") {
-    window.CryptoJS = CryptoJS
-    window.hexedURI = hexedURI
-    window.dataURI = dataURI
-    window.text = text
-    window.ciphertext = ciphertext
-    window.error = error
-  }
+  // if (typeof "window" !== "undefined") {
+  //   window.CryptoJS = CryptoJS
+  //   window.hexedURI = hexedURI
+  //   window.dataURI = dataURI
+  //   window.text = text
+  //   window.ciphertext = ciphertext
+  //   window.error = error
+  // }
   
   return (
     <div
