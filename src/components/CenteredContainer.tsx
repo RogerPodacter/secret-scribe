@@ -8,9 +8,9 @@ const CenteredContainer: React.FC<CenteredContainerProps> = ({ children }) => (
   <div
     style={{
       display: 'flex',
-      justifyContent: 'center',
       alignItems: 'center',
-      height: '90vh',
+      marginTop: 50,
+      marginBottom: 100,
       flexDirection: 'column',
     }}
   >
