@@ -33,6 +33,11 @@ export function Ethscribe() {
   const hexedURI = Buffer.from(dataURI).toString('hex')
   
   const onEthscribe = async () => {
+    if (!recipient) {
+      alert('You must enter a recipient');
+      return
+    }
+    
     if (!ready || !hexedURI) return;
     
     if (!account || !account.isConnected || !account.address) {
