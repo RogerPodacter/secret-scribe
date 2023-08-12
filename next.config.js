@@ -5,9 +5,6 @@ module.exports = {
     config.resolve.fallback = { fs: false, net: false, tls: false }
     return config
   },
-  experimental: {
-    scrollRestoration: true,
-  },
   typescript: {
     ignoreBuildErrors: true,
   },
